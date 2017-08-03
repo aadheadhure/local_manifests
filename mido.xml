@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- remote name="github" fetch="git://github.com" /> -->
 
-    <project path="device/xiaomi/mido" name="arn4v/android_device_xiaomi_mido" remote="github" revision="cm-14.1" />
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+    <project path="device/xiaomi/mido" name="LineageOS/android_device_xiaomi_mido" remote="github" revision="cm-14.1" />
     <project path="kernel/xiaomi/msm8953" name="LineageOS/android_kernel_xiaomi_msm8953" remote="github" revision="cm-14.1" />
-    <project path="vendor/xiaomi" name="arn4v/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
+    <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
+
 </manifest>
 
